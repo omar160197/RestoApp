@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ResTo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_calls">calls</string>
+    <string name="title_activity_about">about</string>
+    <string name="about">Our restaurant is one of the best modern restaurants, where it uses the advanced tools to prepare the best meals. Here you are very skilled cooks to prepare different types of meals and drinks,
+and our restaurant provides you comfort, safety and integrated hotel service for you only,
+        do not hesitate to visit us.. </string>
+    <string name="about1">you can visit our site: </string>
+    <string name="about2">"http://www.Myrestaurant.com "</string>
+    <string name="title_activity_breakfast">breakfast</string>
+    <string name="title_activity_dessert">dessert</string>
+    <string name="title_activity_drinks">drinks</string>
+    <string name="title_activity_maindish">maindish</string>
+    <string name="title_activity_sidedish">sidedish</string>
+    <string name="msg">DO YOU WANT TO CANCEL THE ORDER ?</string>
+    <string name="title">CONFIRMATION</string>
+
+</resources>

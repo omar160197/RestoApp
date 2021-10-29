@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.our_project">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/restaurant"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu" />
+        <activity
+            android:name=".calls"
+            android:label="@string/title_activity_calls" />
+        <activity
+            android:name=".about"
+            android:label="@string/title_activity_about" />
+        <activity
+            android:name=".breakfast"
+            android:label="@string/title_activity_breakfast" />
+        <activity
+            android:name=".dessert"
+            android:label="@string/title_activity_dessert" />
+        <activity
+            android:name=".drinks"
+            android:label="@string/title_activity_drinks" />
+        <activity
+            android:name=".maindish"
+            android:label="@string/title_activity_maindish" />
+        <activity
+            android:name=".sidedish"
+            android:label="@string/title_activity_sidedish" />
+        <activity android:name=".Order_Activity" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OurGallery" />
+        <activity android:name=".FullPhoto" />
+        <activity android:name=".Cart" />
+        <activity android:name=".Order" />
+        <activity android:name=".Update_Order"></activity>
+    </application>
+
+</manifest>

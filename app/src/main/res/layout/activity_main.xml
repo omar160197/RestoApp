@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+             android:scaleType="centerCrop"
+             android:background="@drawable/back"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+
+            >
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu"
+                android:onClick="menu"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="130dp"
+                android:background="@drawable/cart"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:onClick="cart"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+
+            android:padding="8dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:layout_marginRight="6dp"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/resev"
+                android:onClick="call"
+
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:onClick="gallery"
+                android:background="@drawable/screenshot" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@drawable/about"
+                android:onClick="about"
+                android:layout_marginRight="6dp"
+                android:layout_marginLeft="6dp"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/location"
+                android:id="@+id/button3_google_Map"
+                android:onClick="button3_google_Map"/>
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

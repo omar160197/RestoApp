@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Order">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="#8f0075"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="Information"
+            android:textColor="#fff"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Name"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="18dp"
+                android:layout_weight="2"
+                android:hint="Enter Your Name"
+                android:id="@+id/nametxt"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Phone"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                />
+
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="match_parent"                android:layout_marginRight="18dp"
+                android:layout_weight="2"
+                android:hint="Enter Your Phone"
+                android:inputType="phone"
+                android:id="@+id/phonetxt"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginBottom="70dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Adress"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                />
+
+            <EditText
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="18dp"
+                android:layout_weight="2.2"
+                android:hint="Enter Your Adress"
+                android:inputType="text"
+                android:id="@+id/adresstxt"
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#dc0397"
+            android:text="Email"
+            android:textSize="22dp"
+            android:onClick="sendOrder"
+            android:layout_margin="4dp"
+            android:textColor="#fff"
+            />
+
+
+
+
+
+
+</LinearLayout>

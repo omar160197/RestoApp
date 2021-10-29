@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#b3e5fc"
+
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#ec407a"
+        android:textColor="#fafafa"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/contact"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:text="Queries : "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/reservation"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ec407a"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="69dp"
+        android:layout_marginStart="32dp"
+        android:layout_alignBottom="@+id/reservation"
+        android:layout_toRightOf="@+id/reservation"
+        android:layout_toEndOf="@+id/reservation"
+        android:text="Make a Call"
+        android:background="#37474f"
+        android:textColor="#fafafa"
+    android:onClick="reservationcall"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reservation"
+        android:text="Complaint : "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/comlaint"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="45dp"
+        android:textColor="#ec407a"
+
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_alignBottom="@+id/comlaint"
+        android:layout_toRightOf="@+id/comlaint"
+        android:layout_toEndOf="@+id/comlaint"
+        android:text="Make a Call"
+       android:onClick="reservationcomplain"
+        android:background="#37474f"
+        android:textColor="#fafafa"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or By Gmail : "
+        android:layout_below="@+id/comlaint"
+        android:textColor="#ec407a"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/gmail"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"
+        android:layout_below="@+id/gmail"
+        android:background="#37474f"
+        android:textColor="#fafafa"
+        android:onClick="reservation"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact us any time,our service 24 hours"
+        android:layout_below="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+</RelativeLayout>
+
+
